@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rhello-k8s
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: rhello-k8s
+  template:
+    metadata:
+      labels:
+        app: rhello-k8s
+    spec:
+      containers:
+        - name: rhello-k8s
+          image: venkateshsagar/rhello-k8s:latest
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "256Mi"
