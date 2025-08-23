@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <h1>Hello World! Welcome to Kubernetes v1.</h1>
+        <h1>Welcome to react app Kubernetes v1.</h1>
       </header>
     </div>
   );
