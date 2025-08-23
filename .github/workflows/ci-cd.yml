@@ -46,8 +46,8 @@ jobs:
 
       # Step 8: Build Docker image
       - name: Build Docker image
-        run: docker build -t venkateshsagar/hello-k8s:latest .
+        run: docker build -t venkateshsagar/rhello-k8s:latest .
 
       # Step 9: Push Docker image
       - name: Push Docker image
-        run: docker push venkateshsagar/hello-k8s:latest
+        run: docker push venkateshsagar/rhello-k8s:latest

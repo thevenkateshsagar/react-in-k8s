@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <h1>Welcome to react sample k8s appliction deployed to Kubernetes with Argo CD v2.</h1>
+        <h1>Welcome to react k8s appliction deployed to Kubernetes with Argo CD v2.</h1>
       </header>
     </div>
   );
