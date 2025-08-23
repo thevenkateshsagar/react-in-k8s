@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <h1>Welcome to react application Kubernetes with Argo CD v2.</h1>
+        <h1>Welcome to react rhellok8s application Kubernetes with Argo CD v2.</h1>
       </header>
     </div>
   );
