@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rhello-k8s
-          image: venkateshsagar/rhello-k8s:v4
+          image: venkateshsagar/rhello-k8s:v5
           ports:
             - containerPort: 80
           resources:
