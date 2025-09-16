@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Kubernetes with argocd
+          learn react
         </a>
         <h1>Welcome to react k8s app with argocd which is deployed to Kubernetes with Argo CD v4.</h1>
       </header>
