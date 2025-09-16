@@ -17,7 +17,7 @@ function App() {
         >
           learn react
         </a>
-        <h1>Welcome to react k8s app with argocd which is deployed to Kubernetes with Argo CD v5 venkat.</h1>
+        <h1>Welcome to react k8s app with argocd which is deployed and integrated with jenkins to Kubernetes with Argo CD v5 venkat.</h1>
       </header>
     </div>
   );
