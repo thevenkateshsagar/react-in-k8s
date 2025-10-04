@@ -17,7 +17,8 @@ function App() {
         >
           learn react
         </a>
-        <h1>Welcome to react k8s app integrated with argocd gitop release v10 </h1>
+        <h1>Welcome to react k8s app integrated with argocd gitop release v11 </h1>
+        <h2>Welcome on board venkatesh</h2>
       </header>
     </div>
   );
