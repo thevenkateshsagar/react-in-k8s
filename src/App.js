@@ -17,9 +17,9 @@ function App() {
         >
           learn react
         </a>
-        <h1>Welcome to react k8s app integrated with argocd gitop release v13 </h1>
-        <h2>Welcome on board venkatesh</h2>
-        <h2>Welcome on board vinod</h2>
+        <h1>Welcome to react k8s app integrated with argocd gitops release v14</h1>
+        <h2>Welcome on board sonarqube</h2>
+        <h2>Welcome on board trivy</h2>
         <h2>Welcome on DevOps</h2>
       </header>
     </div>
