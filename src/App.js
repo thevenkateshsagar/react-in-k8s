@@ -9,18 +9,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          learn react
-        </a>
         <h1>Welcome to react k8s app integrated with argocd gitops release v14</h1>
-        <h2>Welcome on board sonarqube</h2>
-        <h2>Welcome on board trivy</h2>
-        <h2>Welcome on DevOps</h2>
+        <h2>Learn Aws Cloud</h2>
+        <h2>Learn GitHub Actions</h2>
+        <h2>Learn Docker</h2>
       </header>
     </div>
   );
