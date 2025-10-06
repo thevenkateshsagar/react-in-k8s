@@ -37,10 +37,11 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=react-cicd
-            -Dsonar.organization=${{ secrets.SONAR_ORG }}
+            -Dsonar.projectKey=Burupally-Venkatesh_react-in-k8s
+            -Dsonar.organization=burupally-venkatesh
             -Dsonar.sources=src
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+            -Dsonar.exclusions=node_modules/**,build/**,public/**
 
       # Step 6: Build React app
       - name: Build
