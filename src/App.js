@@ -17,10 +17,12 @@ function App() {
         >
           learn react
         </a>
-        <h1>Welcome to react k8s app integrated with argocd gitops release v15</h1>
+        <h1>Welcome to react k8s app integrated with argocd gitops release v16</h1>
         <h2>Learn AWS Cloud</h2>
         <h2>Welcome on board trivy</h2>
         <h2>Welcome on DevOps</h2>
+        <h2>Welcome to SRE</h2>
+
       </header>
     </div>
   );
