@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: rhello-k8s
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: rhello-k8s
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rhello-k8s
-          image: venkateshsagar/rhello-k8s:v13
+          image: venkateshsagar/rhello-k8s:v16
           ports:
             - containerPort: 80
           resources:
